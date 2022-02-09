@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+img {
+max-width: 600px;
+}
+
+h1 {
+    border-bottom: 1px black solid;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#outer {
+    text-align: center;
+    background-color: rgb(255, 224, 102);
+    border: 2px black solid;
+
+    
+}
+
+
+
+
+
+
+//buttons
+div {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#buttons {
+    margin: 20px 0px;
+}
+
+#p1 {
+    background: rgb(0, 204, 153);
+    padding: 20px;
+    color: white;
+    border-color: rgb(51, 153, 102);
+    min-width: 200px;
+}
+
+#p2 {
+    background: rgb(51, 102, 255);
+    padding: 20px;
+    color: white;
+    border-color: rgb(0, 0, 204);
+    min-width: 200px;
+}
+
+#reset {
+    background: rgb(204, 0, 102);
+    padding: 20px;
+    color: white;
+    border-color: rgb(153, 0, 0);
+    min-width: 200px;
+}
+
